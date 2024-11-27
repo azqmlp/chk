@@ -1,0 +1,28 @@
+/* Стили для логотипа */
+.logo {
+    width: 50px; /* Устанавливаем ширину логотипа */
+    height: 50px; /* Устанавливаем высоту логотипа */
+    border-radius: 50%; /* Круглый стиль для логотипа */
+    object-fit: cover; /* Убедиться, что изображение не деформируется */
+    border: 2px solid #007bff; /* Добавляем рамку */
+}
+
+/* Анимация кнопок */
+.animated-button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.animated-button:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тень при наведении */
+}
+
+.animated-button:active {
+    transform: scale(0.95); /* Легкое уменьшение при нажатии */
+}
+
+/* Общий стиль страницы */
+body {
+    font-family: Arial, sans-serif; /* Удобный шрифт */
+    background-color: #f8f9fa; /* Светлый фон */
+}
